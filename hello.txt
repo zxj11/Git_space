@@ -1,0 +1,8 @@
+user_name : jie
+user_email : jie@believe.com
+
+1.建立文件(git status 查看状态)
+2.git add file_name
+3.提交本地库：
+	1.将暂存区的文件提交到本地库
+	git commit -m "日志信息" 文件名

@@ -6,3 +6,6 @@ user_email : jie@believe.com
 3.提交本地库：
 	1.将暂存区的文件提交到本地库
 	git commit -m "日志信息" 文件名
+4.git reflog
+5.git log
+6.修改文件后，先git add,再git commit -m

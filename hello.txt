@@ -1,6 +1,10 @@
 user_name : jie
 user_email : jie@believe.com
 
+tip:
+	cat 文件名 查看文件
+	copy:双击左键 paste：单击鼠标中键
+
 1.建立文件(git status 查看状态)
 2.git add file_name
 3.提交本地库：
@@ -9,3 +13,11 @@ user_email : jie@believe.com
 4.git reflog
 5.git log
 6.修改文件后，先git add,再git commit -m
+7.版本穿梭：
+	1.查看版本号 git reflog
+	2.git reset --hard 版本号
+8.分支操作：
+	1.git branch 分支名	创建分支    如果使用 git branch -b 分支名 则相当于创建了分支并且切换到该分支，即1和3命令的合并
+	2.git branch -v    	查看分支
+	3.git checkout 分支名   切换分支
+	4.git merge 分支名      把指定的分支合并到当前分支

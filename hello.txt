@@ -23,7 +23,7 @@ tip:
 	4.git merge 分支名      把指定的分支合并到当前分支
 9.远程仓库操作(github):
 	1.git remote -v		查看当前所有远程地址别名
-	2.git remote add 别名 远程地址		起别名
+	2.git remote add 别名 远程地址		起别名	git remote rm 库名 可以删除库
 	3.git push 别名 分支	 推送本地分支上的内容到远程仓库
 	4.git clone 远程地址	 将远程仓库中的内容克隆到本地
 	5.git pull 别名 远程分支名	远程仓库最新内容与本地仓库分支合并
